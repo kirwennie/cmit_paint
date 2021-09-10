@@ -1,0 +1,66 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: solid 1px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue  {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#cyan {
+    background-color: cyan;
+}
+
+#magenta {
+    background-color: magenta;
+}
+
+#white {
+    background-color: white;
+}
+
+#black {
+    background-color: black;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#canvas {
+    left: 50%;
+    top: 100px;
+    margin-left: -250px;
+    position: absolute;
+    border: solid 5px;
+}
